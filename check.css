@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1 {
+    padding-top: 15px;
+}
+
+p {
+    padding-top: 10px;
+}
+
+.home {
+    background-color: antiquewhite;
+}
+
+.one {
+    color: brown;
+}

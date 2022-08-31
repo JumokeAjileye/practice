@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+border: 3px solid red;
+margin-bottom: 30px;
+width: 80%;
+}
+
+h1 {
+    text-align: center;
+    width: 100%;
+    background-color: bisque;
+    font-size: 20px;
+    position: sticky;
+    top: 0;
+}
+
+.circles {
+    
+    width: 90%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    padding: 10px;
+    justify-content: center;
+    gap: 20px;
+   
+}
+
+@media screen and (max-width: 500px)
+{ body {
+    background-color: purple;
+}
+    
+}
